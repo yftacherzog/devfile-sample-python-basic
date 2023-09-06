@@ -23,7 +23,7 @@ spec:
   - name: git-url
     value: '{{repo_url}}'
   - name: image-expires-after
-    value: 5d
+    value: 4d
   - name: output-image
     value: quay.io/redhat-user-workloads/yherzog-tenant/devfile-sample-python-basic/devfile-sample-python-basic:on-pr-{{revision}}
   - name: path-context
